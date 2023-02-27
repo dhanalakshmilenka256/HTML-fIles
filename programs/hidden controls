@@ -1,0 +1,6 @@
+<html>
+<body>
+<form>
+<input type="hidden" name="hidden_file" value="10"/><br>
+<input type="submit" name="submit" value="click on me"/><br>
+<input type="reset" name="reset"  value="reset"/></form></body></html>
