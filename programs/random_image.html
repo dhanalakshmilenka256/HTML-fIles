@@ -1,0 +1,16 @@
+<html>
+<body>
+
+<img id="k" onclick="change();" src="rose.jpg" width="300" height="200">
+
+<script type="text/javascript">
+function change()
+{
+   var a=['1.jpg','2.jpg','3.jpg','4.jpg','5.jpg','6.jpg','7.jpg','8.jpg'];
+   var n=Math.random();
+   var l=((n.toPrecision(1))*10);
+   document.getElementById("k").src = a[l];
+}
+</script>
+</body>
+</html>

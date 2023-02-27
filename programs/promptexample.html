@@ -1,0 +1,21 @@
+<html>
+<body>
+<button onclick="myfunction()">Try it</button>
+<p id="demo"></p>
+<script>
+function myfunction()
+{
+	let text;
+	let person=prompt("enter your name:",,"harry potter");
+	if(person==null||person=="")
+	{
+		text="user cancelled the prompt";
+	}
+	else
+	{
+		text="hi,"+person+" how are you?";
+	}
+	document.getElementById("demo").innerHTML=text;
+	
+	</script>
+</body></html>

@@ -1,0 +1,38 @@
+<html>
+<head><title>registration form</title>
+</head>
+<body style="text-align:center">
+
+	<h1 style="color:violet;">REGISTRAION FORM</h1><br><br>
+	Name: <input type="text" name="student_name"><br><br>
+	Gender:<input type="radio" name="gender" value="male">Male
+	<input type="radio" name="gender" value="Female">Female
+	<input type="radio" name="gender" value="Other">Other
+	<br><br>
+	Date of Birth:<input type="text" name="date_of_birth"><br><br>
+	Mobile No:<input type="text" name="mobile_no"><br><br>
+	Father Name:<input type="text" name="father_name"><br><br>
+	Mother Name:<input type="text" name="mother_name"><br><br>
+	No.of Siblings:<select name="dropdown" >
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	</select><br><br>
+	Branch:<select name="dropdown" >
+	<option value="CSE">CSE</option>
+	<option value="ECE">ECE</option>
+	<option value="CIVIL">CIVIL</option>
+	<option value="MECHANICAL">MECHANICAL</option>
+	<option value="CHEMICAL">CHEMICAL</option>
+	</select><br><br>
+	Address:<textarea rows="5" col="30"></textarea><br><br>
+	Languages Known:<input type="checkbox" name="English" value="on">English
+	<input type="checkbox" name="Telugu" value="on">Telugu
+	<input type="checkbox" name="Hindi" value="on">Hindi<br><br>
+	Marks Memo:<input type="file" name="file_name"><br><br>
+	<input type="submit" name="submit" value="submit"><br>
+	<input type="reset" name="Reset" value="Reset"><br>
+	</body></html>
+	

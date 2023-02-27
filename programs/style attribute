@@ -1,0 +1,18 @@
+<html>
+<body>
+<h1 style="background-color:red">RED</h1>
+<h1 style="background-color:blue">BLUE</h1>
+<h1 style="background-color:green">GREEN</h1>
+<h1 style="font-family:courier;">DhanaLakshmi</h1>
+<p style="font-size:500%;">hi hello welcome</p>
+<p style="text-align:left;">this is html</p>
+<p style="text-align:right;">this is html</p>
+<p style="text-align:center;">this is html</p>
+<p>hi,this is <i>dhanalakshmi</i>from vizianagaram</p>
+<p>dhana<sub>lakshmi</sub></p>
+<p>dhana<sup>lakshmi</sup></p>
+<p><mark>cse2d</mark><del>cse2c</del>cse2a
+<ins>cse2b</ins></p>
+<h2 style="border:2px solid tomato;">hello world</h2>
+<h2 style="border:5px solid red;">hello world</h2>
+</body></html>
